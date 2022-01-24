@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: heebo;
+}
+body{
+    background-color: #000000;
+}
+.frame{
+    width: 340px;
+    overflow: hidden;
+    height: 700px;
+    background-color: white;
+    margin:  auto;
+}
+.search-area{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 10px 0;
+    position: relative;
+}
+#search-icon{
+    position: absolute;
+    left: 35px;
+    top: 65px;
+}
+#search-bar{
+    border-radius: 20px;
+    border: none;
+    background-color: #f7f8fa;
+    width: 200px;
+    height: 40px;   
+    padding: 0 0 0 50px;
+}
+#search-bar::placeholder{
+    color: #c5cdda;
+}
+#box{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #f7f8fa;
+    /* box-shadow: 0 0 10px 4px #c5cdda; */
+    box-shadow: -5px -5px 10px #ffffffd7, 5px 5px 10px #dbdfe7;
+}
+#box > i{
+    font-size: 25px;
+    padding: 10px;
+    color: #c5cdda;
+}
+.tittle{
+    margin: 20px 0 -20px 10px;
+    font-size: 22px;
+    font-weight: 800px;
+}
+.tittle-text{
+    font-size: 13px;
+    margin: 20px 0 20px 10px;
+    color: grey;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.category{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    margin-left: 10px;
+    /* justify-content: space-evenly; */
+}
+.card{
+    height: 170px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 0 5px;
+    background-color: #ffde59;
+    color: white;
+    box-shadow: 0 5px 5px #c5cdda;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px auto;
+}
+.card > h2{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+img{
+    height: 200px;
+    width: 80%;
+    padding: 25px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 0 #fff,0 -4px 6px #f7f8fa;
+}
+a > .fas{
+    color: grey;
+    font-size: 18px;
+    padding: 15px;
+}
+#current{
+    color: black;
+}
